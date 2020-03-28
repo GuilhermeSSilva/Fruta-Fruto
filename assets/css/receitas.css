@@ -1,0 +1,13 @@
+.receitas {
+    width:calc(100% - 5rem);
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+@media screen and (max-width:480px){
+    .receitas{
+        padding:0;
+        width:100%;
+    }
+}

@@ -1,0 +1,21 @@
+.cabecalho {
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+@media screen and (max-width:480px){
+    .cabecalho{
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
+        background: #f9f9f9;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: inline-block;
+        text-align: center;
+        width: calc(100% - 4rem);
+    }
+}
